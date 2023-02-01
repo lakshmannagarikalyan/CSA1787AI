@@ -1,0 +1,17 @@
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+print("1=add,2=sub,3=mul,4=div")
+ch=int(input("entteer your calucalue"))
+if(ch==1):
+    x=(a+b)
+    print(x)
+elif(ch==2):
+    x=(a-b)
+    print(x)
+elif(ch==3):
+    x=(a*b)
+    print(x)
+else:
+    x=(a/b)
+    print(x)
+    
